@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Move Up</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="navbar">
+    <article class="cerclenav">
+      <img class="imgnav" src="images/svg/customer-services.svg" alt="svg image" />
+    </article>
+    <p class="parrNav">202-456-1132</p>
+  </div>
+
+  <nav class="dFlex">
+    <a href="index.html"> <img class="imgLogo" src="images/logo.png" class="imgLogo" alt=""></a>
+    <div class="ulTop">
+      <ul class="icons ulSocial">
+        <li><a href="#howItWorks" class="icon"><span class="label">HOW IT WORKS</span></a></li>
+        <li><a href="#whyChooseUs" class="icon"><span class="label">WHY SELL TO US</span></a></li>
+        <li><a href="#whoWheAre" class="icon "><span class="label">WHO WE ARE</span></a></li>
+        <li><a href="#testimonials" class="icon "><span class="label">TESTIMONIALS</span></a></li>
+        <li><a href="#contactUs" target="_blank" class="icon "><span class="label">CONTACT</span></a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="mainText">
+    <div class="divtextMain">
+      <h1 class="title">Problems with the house?</h1>
+      <h2 class="title">We will buy it!</h2>
+      <button id="myBtn" class="btn" type="button" name="button">
+        <p class="parrBtn">Cick to an offer</p>
+      </button>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section>
+          <form action="/action_page.php">
+            <input class="inputFormFirst" type="text" id="fname" name="fname" placeholder="Address"><br>
+            <div class="divFlexForm">
+              <input class="inputForm" type="text" id="lname" name="lname" placeholder="Name"><br>
+              <input class="inputForm" type="text" id="lphone" name="lphone" placeholder="PhoneNumber"><br>
+            </div>
+            <input class="inputFormFirst" type="text" id="fmail" name="fmail" placeholder="Email"><br><br>
+            <button class="submitForm" onclick="return foo();" type="submit">
+              <p class="submitFormparr">Get a free offer today!</p>
+            </button>
+          </form>
+        </section>
+      </div>
+
+    </div>
+  </main>
+  <section id="howItWorks">
+    <h2 class="subtitle">How it works?</h2>
+    <hr class="hrSub">
+    <div class="cardContent">
+      <article class="card">
+        <h3 class="titleCard">Step 1</h3>
+        <div class="dot"><img class="imgSvgStep" src="images/svg/step1.svg" alt="svg image" /></div>
+        <h4 class="subtitleCard">Contact Us</h4>
+        <hr class="hrSub2">
+        <p class="parrCard">We are available 24/7 to answer your questions. Our friendly professionals are here to help and hear you out, to ensure that we can build a solution specific to your situation.</p>
+      </article>
+      <article class="card">
+        <h3 class="titleCard">Step 2</h3>
+        <div class="dot"><img class="imgSvgStep" src="images/svg/step2.svg" alt="svg image" /></div>
+        <h4 class="subtitleCard">No obligation offer in 24 hours</h4>
+        <hr class="hrSub2">
+        <p class="parrCard">After getting some basic information about your home, we are committed to providing you a no obligation cash offer within 24 hours.</p>
+      </article>
+      <article class="card">
+        <h3 class="titleCard">Step 3</h3>
+        <div class="dot"><img class="imgSvgStep" src="images/svg/step3.svg" alt="svg image" /></div>
+        <h4 class="subtitleCard">Cash in your pocket in less than #5 days</h4>
+        <hr class="hrSub2">
+        <p class="parrCard">We will buy your home in as-is condition for cash–without surprises. No closing costs. No inspections. No broker commissions. That can happen in less than 5 days.</p>
+      </article>
+    </div>
+  </section>
+  <section class="divFlexS">
+    <article class="">
+      <p class="parrg">ALL CASH OFFERS</p>
+      <div class="dotS"></div>
+    </article>
+    <hr class="hrSubS">
+    <article class="">
+      <p class="parrg">CLOSE ON YOUR TIMELINE</p>
+      <div class="dotS"></div>
+    </article>
+    <hr class="hrSubS">
+    <article class="">
+      <p class="parrg">AS IS CONDITION</p>
+      <div class="dotS"></div>
+    </article>
+  </section>
+  <section id="weBuyHouses">
+    <div class="divFlexSpaceBetween">
+      <img class="imgWeBuy" src="images/weBuyHouses.jpg" alt="">
+      <div class="contentParrWeBuy">
+        <p class="subtitleSec">We buy houses as is from </p> <br>
+        <p class="subtitleSec">homeowner for <b class="subtitleSectionLight">any reason :</b> </p>
+      </div>
+    </div>
+    </h2>
+    <div class="cardContents">
+      <p class="parrCardCont">Distressed Property</p>
+      <p class="parrCardCont">Late Mortgage Payments</p>
+      <p class="parrCardCont">Rental Property</p>
+      <p class="parrCardCont">Damaged Property</p>
+    </div>
+    <div class="cardContents2">
+      <p class="parrCardCont">Foreclosure</p>
+      <p class="parrCardCont">Bankruptcy</p>
+      <p class="parrCardCont">Inherited House</p>
+      <p class="parrCardCont">Relocating</p>
+    </div>
+    <div class="cardContents3">
+      <p class="parrCardCont">Downsizing</p>
+      <p class="parrCardCont">Divorce</p>
+      <p class="parrCardCont">Ugly House</p>
+      <p class="parrCardCont">Probate</p>
+    </div>
+  </section>
+  <section id="whyChooseUs">
+    <section class="divFlexSpaceBetweenOver">
+      <article class="divWhychoose">
+        <h2 class="subtitleLeft">Why choose us?</h2>
+        <h3 class="subSec">Selling your home to Move Up <br>
+          is <b class="subSecLight">easy</b>, <b class="subSecLight">fast</b> and <b class="subSecLight">safe</b>.</h3>
+      </article>
+      <img class="imgContact" src="images/whyChooseUs.jpg" alt="">
+    </section>
+
+    <section class="divFlexWhy">
+      <div class="">
+        <div class="dot2"><img class="imgSvg" src="images/svg/easy.svg" alt="svg image" />
+        </div>
+        <h2 class="titChoose">Easy</h2>
+        <p class="textParr">You don’t want to jump through a bunch of hoops, and we don’t want you to either. We will purchase your home in as-is condition for cash–with no surprises. No closing costs. No inspections. No broker commissions. That can
+          happen in as
+          quickly as 5 days.</p>
+      </div>
+      <div class="">
+        <div class="dot2"><img class="imgSvg" src="images/svg/fast.svg" alt="svg image" />
+        </div>
+        <h2 class="titChoose">Fast</h2>
+        <p class="textParr">You don’t want to jump through a bunch of hoops, and we don’t want you to either. We will purchase your home in as-is condition for cash–with no surprises. No closing costs. No inspections. No broker commissions. That can
+          happen in as
+          quickly as 5 days.</p>
+      </div>
+      <div class="">
+        <div class="dot2"><img class="imgSvg" src="images/svg/safe.svg" alt="svg image" />
+        </div>
+        <h2 class="titChoose">Safe</h2>
+        <p class="textParr">You don’t want to jump through a bunch of hoops, and we don’t want you to either. We will purchase your home in as-is condition for cash–with no surprises. No closing costs. No inspections. No broker commissions. That can
+          happen in as
+          quickly as 5 days.</p>
+      </div>
+    </section>
+  </section>
+  <section id="whoWheAre">
+    <h2 class="subtitle">Who we are?</h2>
+    <hr class="hrSub">
+    <div class="divFlexSpaceA">
+      <img class="imgContact" src="images/handcontact.jpg" alt="">
+      <div class="contentText">
+        <p class="textParr2">We are a local real estate investment company with an impeccable reputation in the local community. We are committed to helping homeowners with their home, offering tailor-made solutions to your unique needs and
+          situation.
+          We
+          offer full transparency throughout the entire process, ensuring that you get a fair offer for your home. </p>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials">
+    <!-- <h2 class="subtitleRight">Testimonials</h2> -->
+    <!-- <article class="cuadrante">
+      <iframe class="ifrVideo" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article> -->
+    <section class="cuadranteTestimonials">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <article class="cuadrante2">
+            <img class="imgSvgTestimonials" src="images/testimonials2.jpg" alt="">
+            <h4 class="subtitleSecLight">Lisa W.</h4>
+            <h5 class="subGray">Bowie, Maryland</h5>
+            <div class="testText">
+              <p class="textParrTestimonials">You don’t want to jump through a bunch of hoops, and we don’t want you to either. We will purchase your home in as-is condition for cash–with no surprises You don’t want to jump through a bunch of hoops,
+                and
+                we don’t
+                want
+                you to either. We will purchase your home in as-is condition for cash–with no surprises. </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="mySlides fade">
+          <article class="cuadrante2">
+            <img class="imgSvgTestimonials" src="images/testimonials4.jpg" alt="">
+            <h4 class="subtitleSecLight">Juan Smith</h4>
+            <h5 class="subGray">Bowie, Maryland</h5>
+            <div class="testText">
+              <p class="textParrTestimonials">You don’t want to jump through a bunch of hoops, and we don’t want you to either. We will purchase your home in as-is condition for cash–with no surprises You don’t want to jump through a bunch of hoops,
+                and
+                we don’t
+                want
+                you to either. We will purchase your home in as-is condition for cash–with no surprises. </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="mySlides fade">
+          <article class="cuadrante2">
+            <img class="imgSvgTestimonials" src="images/testimonials3.jpg" alt="">
+            <h4 class="subtitleSecLight">Rober Jonhson</h4>
+            <h5 class="subGray">Bowie, Maryland</h5>
+            <div class="testText">
+              <p class="textParrTestimonials">You don’t want to jump through a bunch of hoops, and we don’t want you to either. We will purchase your home in as-is condition for cash–with no surprises You don’t want to jump through a bunch of hoops,
+                and
+                we don’t
+                want
+                you to either. We will purchase your home in as-is condition for cash–with no surprises. </p>
+            </div>
+          </article>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+  </section>
+  <section id="contactUs">
+    <h2 class="subtitleLeft2">Contac <b class="subtitleBold">us</b></h2>
+    <div class="divFlexSpaceA">
+      <div class="">
+        <p class="textParr">Mail: info@moveuphomebuyers.com <br>
+          Phone (US): +1 202 557 1122 <br>
+          Instagram: moveup.homebuyers <br>
+          Facebook: MoveUp Homebuyers
+        </p>
+        <article class="cercle">
+          <img class="imgSvgContacts" src="images/svg/customer-services.svg" alt="svg image" />
+        </article>
+      </div>
+      <img class="imgContact" src="images/contactUs.jpg" alt="">
+    </div>
+  </section>
+  <footer class="foot"></footer>
+</body>
+<script src="index.js" charset="utf-8"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Telex&display=swap" rel="stylesheet">
+
+</html>
